@@ -20,13 +20,13 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i41-DV-48h">
                                 <rect key="frame" x="36" y="88" width="528" height="30"/>
+                                <color key="backgroundColor" red="0.90392203282828287" green="0.90392203282828287" blue="0.90392203282828287" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="i41-DV-48h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hfH-RG-tXU"/>
                             <constraint firstItem="i41-DV-48h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="nJo-jC-9dz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="i41-DV-48h" secondAttribute="trailing" constant="16" id="rwl-8c-FzJ"/>
                             <constraint firstItem="i41-DV-48h" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="wdK-jf-usx"/>

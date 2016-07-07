@@ -19,8 +19,11 @@ class ViewController: UIViewController {
     
     @IBAction func greetButtonTapped(sender: AnyObject) {
         if let name = nameTextField.text where !name.isEmpty {
-            print(name)
+            let greeting = "Hello " + name
+            let alertController = UIAlertController(title: nil, message: greeting, preferredStyle: .Alert)
+            let alertAction = UIAlertAction(title: "Dismiss", style: .Default, handler: nil)
+            alertController.addAction(alertAction)
+            presentViewController(alertController, animated: true, completion: nil)
         }
     }
 }
-
