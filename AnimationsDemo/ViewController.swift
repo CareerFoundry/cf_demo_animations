@@ -17,13 +17,13 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func greetButtonTapped(sender: AnyObject) {
-        if let name = nameTextField.text where !name.isEmpty {
+    @IBAction func greetButtonTapped(_ sender: AnyObject) {
+        if let name = nameTextField.text , !name.isEmpty {
             let greeting = "Hello " + name
-            let alertController = UIAlertController(title: nil, message: greeting, preferredStyle: .Alert)
-            let alertAction = UIAlertAction(title: "Dismiss", style: .Default, handler: nil)
+            let alertController = UIAlertController(title: nil, message: greeting, preferredStyle: .alert)
+            let alertAction = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
             alertController.addAction(alertAction)
-            presentViewController(alertController, animated: true, completion: nil)
+            present(alertController, animated: true, completion: nil)
         }
     }
 }
